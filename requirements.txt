@@ -1,0 +1,21 @@
+py7zr
+boto3
+pyyaml
+sqlalchemy
+xlrd
+asyncio
+elasticsearch[async] < 7.14.0
+rapidfuzz
+unidecode
+spacy
+nltk
+wordcloud
+torch
+fasttext
+faiss-cpu
+pandas
+seaborn
+pyarrow
+hvac
+fasttext
+pyarrow
