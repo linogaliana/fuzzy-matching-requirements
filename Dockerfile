@@ -22,6 +22,4 @@ RUN if ! [[ -z "${CUDA_VERSION}" ]]; then \
 
 RUN pip install -r requirements.txt
 
-USER 1000
-
 CMD ["python3", "-c", "\"import fasttext\""]
