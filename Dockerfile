@@ -5,6 +5,8 @@ SHELL ["/bin/bash", "-c"]
 
 USER root
 
+ADD requirements.txt .
+
 RUN if ! [[ -z "${CUDA_VERSION}" ]]; then \
         # CUDA support
         pip install torch torchvision torchaudio; \
